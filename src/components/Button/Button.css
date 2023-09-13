@@ -5,17 +5,19 @@
   border: none;
   font-size: 18px;
   padding: 10px;
+  text-decoration: none;
 }
 .linkButton-text {
-  padding: 8px 12px;
-  background-color: #cccccc;
-  border: 1px solid gray;
-  border: 1px solid #ccc;
+  align-self: left;
+  padding: 8px;
   border-radius: 4px;
   background-color: #f0f0f0;
   color: #333;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .linkButton-text:hover {
+  color: blue;
   background-color: #ddd;
 }

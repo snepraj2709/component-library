@@ -1,0 +1,14 @@
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-main-container {
+  display: grid;
+  /* grid-template-columns: repeat(2, 0.2fr, 0.8fr); */
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+
+  overflow: auto;
+  min-height: 100vh;
+}

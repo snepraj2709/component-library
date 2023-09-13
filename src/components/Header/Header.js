@@ -10,8 +10,8 @@ export function Header() {
         <button>Search</button>
       </div>
       <div className="header-button-container">
-        <PrimaryButton text="Home" />
-        <PrimaryButton text="Components" />
+        <PrimaryButton text="Home" link="/" />
+        <PrimaryButton text="Components" link="/components" />
       </div>
     </header>
   );

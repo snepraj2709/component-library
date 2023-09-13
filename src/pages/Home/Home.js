@@ -1,4 +1,4 @@
-import { Header, PrimaryButton } from "../../components/index";
+import { Header, Heading, PrimaryButton, Text } from "../../components/index";
 import "./Home.css";
 
 export function Home() {
@@ -6,7 +6,8 @@ export function Home() {
     <div>
       <Header />
       <div className="home-content">
-        <p className="home-text-content">My Component Library</p>
+        <Heading text="Component Library" />
+        <Text text="A collection of frequnetly used components" />
         <PrimaryButton text="Get Started" link="./components" />
       </div>
     </div>

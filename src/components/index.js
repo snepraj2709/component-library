@@ -15,6 +15,9 @@ import { HorizontalCard } from "./Card/HorizontalCard";
 import { TextOnlyCard } from "./Card/TextOnlyCard";
 import { VerticalCard } from "./Card/VerticalCard";
 import { Heading } from "./Heading/Heading";
+import { Text } from "./Text/Text";
+import { Sidebar } from "./Sidebar/Sidebar";
+import { Wrapper } from "./Wrapper/Wrapper";
 
 export {
   Header,
@@ -34,4 +37,7 @@ export {
   TextOnlyCard,
   VerticalCard,
   Heading,
+  Text,
+  Sidebar,
+  Wrapper,
 };

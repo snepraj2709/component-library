@@ -1,5 +1,5 @@
 import "./Heading.css";
 
-export function Heading({ heading }) {
-  return <div className="heading-text">{heading}</div>;
+export function Heading({ text }) {
+  return <div className="heading-text">{text}</div>;
 }

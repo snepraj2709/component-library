@@ -1,5 +1,6 @@
+import { NavLink } from "react-router-dom";
 import "./Button.css";
 
-export function FloatingActionButton({ text }) {
-  return <div>{text}</div>;
+export function FloatingActionButton({ text, link }) {
+  return <NavLink to={link}>{text}</NavLink>;
 }
