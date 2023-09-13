@@ -4,7 +4,7 @@ import { Wrapper } from "../../components/index";
 export function AvatarPage() {
   return (
     <Wrapper>
-      <p>Sneha</p>
+      <p>Avatar</p>
     </Wrapper>
   );
 }

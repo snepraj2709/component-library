@@ -1,5 +1,6 @@
 import React from "react";
+import { Wrapper } from "../../components";
 
 export function AlertPage() {
-  return <div>AlertPage</div>;
+  return <Wrapper>AlertPage</Wrapper>;
 }
