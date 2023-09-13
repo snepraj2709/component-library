@@ -15,6 +15,7 @@
   color: #333;
   text-decoration: none;
   margin: 5px 2px;
+  width: 100%;
 }
 
 .linkButton-text:hover {

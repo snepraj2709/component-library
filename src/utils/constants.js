@@ -5,7 +5,7 @@ export const allLinks = [
   { routeName: "Button", route: "/button" },
   { routeName: "Card", route: "/card" },
   { routeName: "Code", route: "/code" },
-  { routeName: "Header", route: "/header" },
   { routeName: "Image", route: "/image" },
   { routeName: "Text", route: "/text" },
+  { routeName: "Heading", route: "/heading" },
 ];
