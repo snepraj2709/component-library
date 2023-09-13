@@ -6,6 +6,7 @@ import { FloatingActionButton } from "./Button/FloatingActionButton";
 import { Avatar } from "./Avatar/Avatar";
 import { Alert } from "./Alert/Alert";
 import { Badge } from "./Badge/Badge";
+import { RoundImage } from "./Image/RoundImage";
 import { ResponsiveImage } from "./Image/ResponsiveImage";
 import { CardWithBadge } from "./Card/CardWithBadge";
 import { CardWithDismiss } from "./Card/CardWithDismiss";
@@ -18,6 +19,7 @@ import { Heading } from "./Heading/Heading";
 import { Text } from "./Text/Text";
 import { Sidebar } from "./Sidebar/Sidebar";
 import { Wrapper } from "./Wrapper/Wrapper";
+import { Code } from "./Code/Code";
 
 export {
   Header,
@@ -28,6 +30,7 @@ export {
   Avatar,
   Alert,
   Badge,
+  RoundImage,
   ResponsiveImage,
   CardWithBadge,
   CardWithDismiss,
@@ -40,4 +43,5 @@ export {
   Text,
   Sidebar,
   Wrapper,
+  Code,
 };

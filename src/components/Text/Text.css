@@ -1,6 +1,6 @@
 .text-content {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-variant: normal;
-  padding: 10px 5px 15px 5px;
+  padding: 10px 5px 15px 0px;
 }

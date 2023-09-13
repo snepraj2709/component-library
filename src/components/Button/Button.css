@@ -1,11 +1,14 @@
 #button {
   background-color: greenyellow;
   outline: none;
-  border-radius: 10%;
+  border-radius: 10px;
   border: none;
   font-size: 18px;
+  margin: 5px;
   padding: 10px;
   text-decoration: none;
+  height: fit-content;
+  min-height: 20px;
 }
 .linkButton-text {
   align-self: left;

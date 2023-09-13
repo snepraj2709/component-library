@@ -1,14 +1,18 @@
-.wrapper-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .wrapper-main-container {
-  display: grid;
-  /* grid-template-columns: repeat(2, 0.2fr, 0.8fr); */
-  grid-template-columns: auto 1fr;
-  grid-gap: 20px;
-
+  display: grid !important;
+  grid-template-columns: 20% 80% !important;
   overflow: auto;
   min-height: 100vh;
+}
+
+.sidebar {
+  /* width: 20%; */
+  background-color: #f0f0f0;
+}
+
+.children {
+  /* width: 80%;
+  flex: 1; */
+  background-color: #ffffff;
+  padding: 0px 10px;
 }
