@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.header-logo-text {
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header-searchBar {
+  display: flex;
+  height: 26px;
+  align-self: center;
+}
+.header-button-container {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  align-self: center;
+  gap: 5px;
+}

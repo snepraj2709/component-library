@@ -1,0 +1,21 @@
+#button {
+  background-color: greenyellow;
+  outline: none;
+  border-radius: 10%;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+}
+.linkButton-text {
+  padding: 8px 12px;
+  background-color: #cccccc;
+  border: 1px solid gray;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.linkButton-text:hover {
+  background-color: #ddd;
+}

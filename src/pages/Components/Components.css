@@ -1,0 +1,11 @@
+.components-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  justify-content: center;
+  padding: 5px;
+}
+.component-card {
+  margin: 5px;
+  min-width: 150px;
+}
